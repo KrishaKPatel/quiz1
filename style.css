@@ -1,0 +1,87 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	font-weight: 200;
+}
+
+.container{
+	width: 100vw;
+	min-height: 100vh;
+	background: linear-gradient(to right, #03001e, #7303c0, #ec38bc, #fdeff9);
+	display: grid;
+	align-content: center;
+	place-items: center;
+}
+
+.container h1{
+	text-align: center;
+	margin: 2rem 2rem;
+}
+
+.inner-div{
+	display: inline-block;
+	width: 50vw;
+	background: rgba(255, 255, 255,0.3);
+	margin: 3rem 3rem;
+	padding: 3rem 3rem;
+	border-radius: 1.5rem;
+	box-shadow: 0 1rem 1rem  rgba(0,0,0,0.4);
+}
+.inner-div h2{
+	font-size: 2rem;
+	font-weight: 200;
+	margin: 1rem 0 2rem 0;
+}
+.inner-div h3{
+	color: white;
+}
+.inner-div li{
+	font-size: 1rem;
+	list-style: none;
+	margin-top: 1rem;
+}
+input{
+	cursor: pointer;
+}
+label{
+	font-size: 20px;
+}
+#submit, .btn{
+	cursor: pointer;
+	padding: 1rem 2rem;
+	outline: none;
+	border-radius: 1.5rem;
+	border: none;
+	display: block;
+	text-transform: uppercase;
+	margin: auto;
+}
+#submit:hover{
+	background: #800060;
+}
+
+#showScore{
+	width: 50vw;
+	background: rgba(255, 255, 255,0.3);
+	margin: 3rem 3rem;
+	padding: 3rem 3rem;
+	border-radius: 1.5rem;
+	box-shadow: 0 1rem 1rem  rgba(0,0,0,0.4);
+}
+#showScore h3{
+	font-size: 2rem;
+	text-align: center;
+}
+#showScore .btn{
+	margin-top: 2rem;
+}
+#showScore .btn:hover{
+	background: #800060;
+}
+.scoreArea{
+	display: none;
+
+}
